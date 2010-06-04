@@ -3,7 +3,6 @@
 
 body {
   margin-top: 10px;
-  background: #fff url(../images/body-back.png) top left repeat-x;
 }
 
 div.left { .leftie; }
@@ -11,31 +10,29 @@ div.right { .rightie;  }
 a { outline: none; }
 
 #wrapper {
-  background: transparent url(../images/wrapper-back.png) top center no-repeat;
   padding: 25px 20px 20px;
   position: relative;
-  }
-  body.two-col #wrapper {
-    background-image: url(../images/wrapper-back-2.png);
+  margin-top: 65px;
   }
 
 .container {
-  width: 950px;
+  width: 630px;
   margin: 0 auto;
   overflow: hidden;
   display: block; }
 
 #sidebar {
-  .column(4);
+  .column(3);
   .colborder;
   h3 { margin-bottom: .5em; }
 }
 
 body.one-col #content {
-  .column-last(24);
+  .column-last(16);
 }
 body.two-col #content {
-  .column-last(19);
+  .column-last(11);
+  margin: 0px 20px;
 }
 
 #header {

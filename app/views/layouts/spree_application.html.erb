@@ -14,14 +14,19 @@ if @body_class.nil?
   end
 end
  %>
-<body class="<%= @body_class %>"<%= %( id="#{@body_id}") if @body_id %>>
-  <div id="header" class="container">                                                          
-    <div id="login-bar">          
-      <ul id="nav-bar">
-        <%= render 'shared/nav_bar' %>
-      </ul>
+<body onload="onPageLoad();" class="<%= @body_class %>"<%= %( id="#{@body_id}") if @body_id %>>
+  <div id="nav">
+    <ul>
+      <%= render 'shared/nav_bar' %>
+    </ul>
+  </div>
+
+  <h1>Buy Coffee</h1>
+
+  <div id="banner">
+    <div  class="reflection_0">
+      <img src="/images/headers/roaster.jpg" alt="Our beautiful Vittoria coffee roaster"/>
     </div>
-	<%= logo %>
   </div>
   <div id="wrapper" class="container"> 
     <% if @content_for_sidebar %>

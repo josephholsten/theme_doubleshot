@@ -1,3 +1,3 @@
-= Theme Default
+= Theme Doubleshot
 
 Description goes here

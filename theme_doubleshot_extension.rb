@@ -1,7 +1,7 @@
 # Uncomment this if you reference any of your controllers in activate
 # require_dependency 'application'
 
-class ThemeDefaultExtension < Spree::Extension
+class ThemeDoubleshotExtension < Spree::Extension
   version "1.0"
   description "Describe your extension here"
   url "http://yourwebsite.com/theme_default"
